@@ -1,7 +1,4 @@
 ;;; -*- mode: asm; compile-command: "wia wave2.s" -*-
-	;; TODO: put in .data for other rhs formats
-	;; Implement sr dr without rhs for mov, rhs without sr dr for swi
-	;; Figure out branching
 	.requ	ir, r2		; instruction register in r2
 	.requ	dr, r3		; destination register (offset) in r3
 	.requ	sr, r4		; source register in r4
